@@ -1,9 +1,14 @@
 ---
 layout: post
-title: 'PSYCH 292: Hypothesis Testing'
-author: "Bobby McHardy, for the University of Waterloo's Psychology Society"
+title: "PSYCH 292: Hypothesis Testing"
 date:   2020-12-05 11:00:00 -0400
 categories: statistics tutorial
+---
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2020-08-17 22:27:51 -0400
+categories: jekyll update
 ---
 <html>
 
