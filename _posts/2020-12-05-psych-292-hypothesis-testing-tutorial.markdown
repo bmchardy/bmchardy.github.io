@@ -2,7 +2,7 @@
 layout: post
 title: "PSYCH 292: Hypothesis Testing"
 date:   2020-12-05 11:00:00 -0400
-categories: statistics tutorial
+categories: statistics
 ---
 <html>
 
