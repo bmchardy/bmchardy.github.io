@@ -7,10 +7,6 @@ categories: statistics tutorial
 output:
   html_document:
     df_print: paged
-    toc: true
-    toc_float: true
-    toc_collapsed: true
-    toc_depth: 3
     number_sections: true
 ---
 
