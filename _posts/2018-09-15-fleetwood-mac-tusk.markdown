@@ -4,6 +4,10 @@ title:  "An Analysis of Fleetwood Mac's Tusk"
 date:   2018-09-15 00:00:00 -0400
 categories: jekyll update
 ---
+
+<center><img src="https://raw.github.com/bmchardy/bmchardy.github.io/master/_posts/fleetwood-mac-tusk/wordart_2MB.png"></center>
+<center>Tusk word cloud</center>
+
 # An Introduction
 
 Tusk is the twelfth studio album by [Fleetwood Mac](https://en.wikipedia.org/wiki/Fleetwood_Mac), a British-American rock group. The 20-track Tusk double album was released on October 12th, 1979 to little fanfare compared to their previous album and 1977 mega-hit, Rumours, which is [ranked by the RIAA](https://www.riaa.com/gold-platinum/?tab_active=top_tallies&ttt=T1A#search_section) as the 10th top-selling album ever. Tusk does not even make the top 100.
@@ -43,13 +47,15 @@ Another method we try is one called Term Frequency — Inverse Document Frequenc
 
 Imagine a function, [TFIDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf), that consumes a local term *t*'s frequency, *tf* (as seen in the previous sections) and a measure of how often term t occurs in the 'real world', *df* (called document frequency). Term frequency — inverse document frequency then maps as follows:
 
-![TFIDF(tf, df) definition](https://raw.github.com/bmchardy/bmchardy.github.io/master/_posts/fleetwood-mac-tusk/tfidf_1.png "TFIDF(tf, df) definition")
+<center><img src="https://raw.github.com/bmchardy/bmchardy.github.io/master/_posts/fleetwood-mac-tusk/tfidf_1.png"></center>
+<center>TFIDF(tf, df) definition</center>
 
 The intuition here is that if the word occurs a lot locally, TFIDF maps to a greater number. If the word occurs a lot in everyday life, we want the TFIDF to map to a smaller number.
 
 Note that in this case, the document frequencies were inverted prior to use, becoming *inverse* document frequencies (*idf*). The *idf*s can then be multiplied by the term frequency to form the equivalent function:
 
-![An equivalent definition for TFIDF; TFIDF(tf, idf)](https://raw.github.com/bmchardy/bmchardy.github.io/master/_posts/fleetwood-mac-tusk/tfidf_2.png "An equivalent definition for TFIDF; TFIDF(tf, idf)")
+<center><img src="https://raw.github.com/bmchardy/bmchardy.github.io/master/_posts/fleetwood-mac-tusk/tfidf_2.png"></center>
+<center>An equivalent definition for TFIDF; TFIDF(tf, idf)</center>
 
 The question now becomes how do we build this inverse document frequency *idf* measure. We know that it needs to accurately represent how each term is used in day-to-day life. The answer involves the use of an external corpus.
 
@@ -59,7 +65,8 @@ The [Open American National Corpus](http://www.anc.org/data/oanc/) (OANC) was us
 
 For each word in this corpus, we take the number of documents (files) within this corpus, divide the number of occurrences of this term and then take the base-10 logarithm. This gives higher values for words that occur less in this "world" and lower values for the words like 'the' that appear more. This process was completed with help from Python. An example of the result is below:
 
-![IDFs calculated over OANC](https://raw.github.com/bmchardy/bmchardy.github.io/master/_posts/fleetwood-mac-tusk/invfreq_1.png "IDFs calculated over OANC")
+<center><img src="https://raw.github.com/bmchardy/bmchardy.github.io/master/_posts/fleetwood-mac-tusk/invfreq_1.png"></center>
+<center>IDFs calculated over OANC</center>
 
 Note that 'the' has a low *idf*, implying that it will be of less importance, 'theatre' has a higher idf because it appears less in the "world", implying higher importance.
 
@@ -69,7 +76,8 @@ We now use our *idf*s calculated from OANC to compute the TFIDF of each term in 
 
 The result is a new list of terms from the Tusk corpus, but this time, they are ordered by the TFIDF assigned to each word. Following is a sample of the top 20 words as rated by their TFIDF. Notice that the words with the highest frequencies are no longer necessarily at the top of the list. Also note that those pesky words from before such as 'and', 'the', and 'that' are no longer present at the top. We are left with words that could be seen as more meaningful to the album such as 'you', 'me', 'i', 'love', 'baby', 'over', etcetera.
 
-![TFIDFs computed for each word in the Tusk corpus](https://raw.github.com/bmchardy/bmchardy.github.io/master/_posts/fleetwood-mac-tusk/tfidf_sample_1.png "TFIDFs computed for each word in the Tusk corpus")
+<center><img src="https://raw.github.com/bmchardy/bmchardy.github.io/master/_posts/fleetwood-mac-tusk/tfidf_sample_1.png"></center>
+<center>TFIDFs computed for each word in the Tusk corpus</center>
 
 It is interesting to note that 'you' and 'me' are by far the highest ranked TFIDFs, with their ranking being 38% and 36% higher than the third TFIDF respectively. This is notable because Tusk deals, in a large way, with relationships.
 
@@ -79,7 +87,8 @@ If the IDF values are to be believed, 'love' and 'honey' are meaningful terms.
 
 Below is the ordered word frequency list compared to the ordered TFIDF list. Note the change in the type of words listed in the top 20.
 
-![Top term frequencies vs. Top TFIDFs](https://raw.github.com/bmchardy/bmchardy.github.io/master/_posts/fleetwood-mac-tusk/freq_2.png "Top term frequencies vs. Top TFIDFs")
+<center><img src="https://raw.github.com/bmchardy/bmchardy.github.io/master/_posts/fleetwood-mac-tusk/freq_2.png"></center>
+<center>Top term frequencies vs. Top TFIDFs</center>
 
 The TFIDFs are used as weights to create a word cloud. A larger TFIDF leads to a larger representation on the word cloud since the word has a larger "importance" to the album.
 
