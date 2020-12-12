@@ -7,4 +7,4 @@ title: Blog
 permalink: /blog/
 ---
 
-I enjoy writing about my thoughts, interests, and recent analyses in my free time. I used to mainly blog on (Medium)[https://medium.com/@rjwmchardy]. Those old posts have been ported over.
+I enjoy writing about my thoughts, interests, and recent analyses in my free time. I used to mainly blog on [Medium](https://medium.com/@rjwmchardy). Those old posts have been ported over.
