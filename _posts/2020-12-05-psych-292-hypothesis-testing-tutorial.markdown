@@ -9,6 +9,8 @@ categories: statistics
 
 *This tutorial is available on [YouTube](youtube.ca). All code and other resources are posted on [Github](https://github.com/bmchardy/PSYCH-292-Statistics-Tutorials).*
 
+<hr>
+
 <html>
 
 <head>
