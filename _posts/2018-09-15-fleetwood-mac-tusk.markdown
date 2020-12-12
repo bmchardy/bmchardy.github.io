@@ -60,20 +60,31 @@ For each word in this corpus, we take the number of documents (files) within thi
 
 ![IDFs calculated over OANC](/fleetwood-mac-tusk/invfreq_1.png "IDFs calculated over OANC")
 
-Note that 'the' has a low *idf*, implying that it will be of less importance, ‘theatre’ has a higher idf because it appears less in the "world", implying higher importance.
-Computing the TFIDF of each word in the Tusk corpus
-We now use our idfs calculated from OANC to compute the TFIDF of each term in our Tusk corpus. We simply apply the TFIDF(tf, idf) function defined above to each word’s frequency. Julia is once again used for this task.
-The result is a new list of terms from the Tusk corpus, but this time, they are ordered by the TFIDF assigned to each word. Following is a sample of the top 20 words as rated by their TFIDF. Notice that the words with the highest frequencies are no longer necessarily at the top of the list. Also note that those pesky words from before such as ‘and’, ‘the’, and ‘that’ are no longer present at the top. We are left with words that could be seen as more meaningful to the album such as ‘you’, ‘me’, ‘i’, ‘love’, ‘’baby’, ‘over’, etcetera.
-Image for post
-TFIDFs computed for each word in the Tusk corpus
-It is interesting to note that ‘you’ and ‘me’ are by far the highest ranked TFIDFs, with their ranking being 38% and 36% higher than the third TFIDF respectively. This is notable because Tusk deals, in a large way, with relationships.
-Next note that ‘love’ and ‘honey’, while only having a term frequency of 39 and 24 respectively, occupy positions 4 and 5 of the TFIDF list. On the term frequency list, these terms occupied positions 12 and 23 respectively. This is a large promotion because of the additional weighting by the TFIDF function.
-If the IDF values are to be believed, ‘love’ and ‘honey’ are meaningful terms.
+Note that 'the' has a low *idf*, implying that it will be of less importance, 'theatre' has a higher idf because it appears less in the "world", implying higher importance.
+
+# Computing the TFIDF of each word in the Tusk corpus
+
+We now use our *idf*s calculated from OANC to compute the TFIDF of each term in our Tusk corpus. We simply apply the TFIDF(*tf*, *idf*) function defined above to each word’s frequency. Julia is once again used for this task.
+
+The result is a new list of terms from the Tusk corpus, but this time, they are ordered by the TFIDF assigned to each word. Following is a sample of the top 20 words as rated by their TFIDF. Notice that the words with the highest frequencies are no longer necessarily at the top of the list. Also note that those pesky words from before such as 'and', 'the', and 'that' are no longer present at the top. We are left with words that could be seen as more meaningful to the album such as 'you', 'me', 'i', 'love', 'baby', 'over', etcetera.
+
+![TFIDFs computed for each word in the Tusk corpus](/fleetwood-mac-tusk/tfidf_sample_1.png "TFIDFs computed for each word in the Tusk corpus")
+
+It is interesting to note that 'you' and 'me' are by far the highest ranked TFIDFs, with their ranking being 38% and 36% higher than the third TFIDF respectively. This is notable because Tusk deals, in a large way, with relationships.
+
+Next note that 'love' and 'honey', while only having a term frequency of 39 and 24 respectively, occupy positions 4 and 5 of the TFIDF list. On the term frequency list, these terms occupied positions 12 and 23 respectively. This is a large promotion because of the additional weighting by the TFIDF function.
+
+If the IDF values are to be believed, 'love' and 'honey' are meaningful terms.
+
 Below is the ordered word frequency list compared to the ordered TFIDF list. Note the change in the type of words listed in the top 20.
-Image for post
-Top term frequencies vs. Top TFIDFs
+
+![Top term frequencies vs. Top TFIDFs](/fleetwood-mac-tusk/freq_2.png "Top term frequencies vs. Top TFIDFs")
+
 The TFIDFs are used as weights to create a word cloud. A larger TFIDF leads to a larger representation on the word cloud since the word has a larger "importance" to the album.
-Results
+
+# Results
+
 It is an exercise left to the reader to validate the findings of this project thus far; to determine whether the words deemed most "important" are indeed "important". Note that this can become somewhat subjective in nature.
-Sources
+
+# Sources
 The Open ANC (OANC) (Nancy Ide, Randi Reppen, Keith Suderman). Primary data (corpus). Department of Computer Science, Vassar College (New York US). Created 2011–05–29. Speech and Language Data Repository (SLDR/ORTOLANG).
