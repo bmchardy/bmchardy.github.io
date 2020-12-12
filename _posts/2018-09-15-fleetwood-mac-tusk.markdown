@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "An Analysis of Fleetwood Mac's Tusk"
-date:   2020-09-15 00:00:00 -0400
+date:   2018-09-15 00:00:00 -0400
 categories: jekyll update
 ---
 # An Introduction
@@ -24,7 +24,8 @@ The corpora were pre-processed by removal of "!", "?", ".", ",", " ' ", "(", ")"
 
 By counting each term’s frequency over the entire Tusk corpus, we were able to compute word frequencies for the album. A list of 488 unique words was created by Julia from this album corpus. A snapshot of the first 20 terms is available below.
 
-![Term frequency list](https://raw.github.com/bmchardy/bmchardy.github.io/master/_posts/fleetwood-mac-tusk/freq_1.png "Term frequency list")
+<center><img src="https://raw.github.com/bmchardy/bmchardy.github.io/master/_posts/fleetwood-mac-tusk/freq_1.png"></center>
+<center>Term frequency list</center>
 
 # Term frequency list
 
