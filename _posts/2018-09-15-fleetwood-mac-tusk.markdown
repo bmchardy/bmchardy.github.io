@@ -8,6 +8,8 @@ categories: jekyll update
 <center><img src="https://raw.github.com/bmchardy/bmchardy.github.io/master/_posts/fleetwood-mac-tusk/wordart_2MB.png"></center>
 <center>Tusk word cloud</center>
 
+*Originally published on my Medium account [here](https://medium.com/@rjwmchardy/an-analysis-of-fleetwood-macs-tusk-d2f110afd993).*
+
 # An Introduction
 
 Tusk is the twelfth studio album by [Fleetwood Mac](https://en.wikipedia.org/wiki/Fleetwood_Mac), a British-American rock group. The 20-track Tusk double album was released on October 12th, 1979 to little fanfare compared to their previous album and 1977 mega-hit, Rumours, which is [ranked by the RIAA](https://www.riaa.com/gold-platinum/?tab_active=top_tallies&ttt=T1A#search_section) as the 10th top-selling album ever. Tusk does not even make the top 100.
