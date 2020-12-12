@@ -28,26 +28,39 @@ By counting each term’s frequency over the entire Tusk corpus, we were able to
 
 # Term frequency list
 
-A logical thing to now do is question the usefulness of this metric. We have here an ordered list of the most frequent words in the album, however we are not seeing important words. With the exception of ‘love’, we are stuck with words such as ‘and’, ‘the’, ‘that’, etcetera. These are not found to be incredibly important since they are simply conjunctions.
-The reason that we see so many words like this in the top 20 is for the simple reason that these words are just common words. You can right now go and look at any text and you will most likely see ‘and’, ‘the’, and ‘that’. This album is no exception.
-To summarize: can we say for certain that ‘and’, ‘the’, and ‘that’ are among the most frequently used words across this album? Yes. However, can we say for certain that these words are among the most important words across this album? The answer would be no. There must be a better way of measuring term importance than by simply employing term frequencies.
-Term Frequency — Inverse Document Frequencies
-Another method we try is one called Term Frequency — Inverse Document Frequencies, or TFIDF for short. TFIDFs promote terms that have a high frequency across the corpus (such as ‘and’, ‘the’, ‘that’, ‘love’), but demote terms that usually have high frequency in text (such as ‘and’, ‘the’, ‘that’).
-How does TFIDF work?
-Imagine a function, TFIDF, that consumes a local term t’s frequency, tf (as seen in the previous sections) and a measure of how often term t occurs in the ‘real world’, df (called document frequency). Term frequency — inverse document frequency then maps as follows:
-Image for post
-TFIDF(tf, df) definition
+A logical thing to now do is question the usefulness of this metric. We have here an ordered list of the most frequent words in the album, however we are not seeing *important* words. With the exception of 'love', we are stuck with words such as 'and', 'the', 'that', etcetera. These are not found to be incredibly important since they are simply conjunctions.
+
+The reason that we see so many words like this in the top 20 is for the simple reason that these words are just common words. You can right now go and look at any text and you will most likely see 'and', 'the', and 'that'. This album is no exception.
+
+To summarize: can we say for certain that 'and', 'the', and 'that' are among the most frequently used words across this album? Yes. However, can we say for certain that these words are among the most *important* words across this album? The answer would be no. There must be a better way of measuring term importance than by simply employing term frequencies.
+
+# Term Frequency — Inverse Document Frequencies
+
+Another method we try is one called Term Frequency — Inverse Document Frequencies, or TFIDF for short. TFIDFs promote terms that have a high frequency across the corpus (such as 'and', 'the', 'that', 'love'), but demote terms that *usually* have high frequency in text (such as 'and', 'the', 'that').
+
+# How does TFIDF work?
+
+Imagine a function, [TFIDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf), that consumes a local term *t*'s frequency, *tf* (as seen in the previous sections) and a measure of how often term t occurs in the 'real world', *df* (called document frequency). Term frequency — inverse document frequency then maps as follows:
+
+![TFIDF(tf, df) definition](fleetwood-mac-tusk/tfidf_1.png "TFIDF(tf, df) definition")
+
 The intuition here is that if the word occurs a lot locally, TFIDF maps to a greater number. If the word occurs a lot in everyday life, we want the TFIDF to map to a smaller number.
-Note that in this case, the document frequencies were inverted prior to use, becoming inverse document frequencies (idf). The idfs can then be multiplied by the term frequency to form the equivalent function:
-Image for post
-An equivalent definition for TFIDF; TFIDF(tf, idf)
-The question now becomes how do we build this inverse document frequency idf measure. We know that it needs to accurately represent how each term is used in day-to-day life. The answer involves the use of an external corpus.
-Building Custom IDFs
-The Open American National Corpus (OANC) was used to build these Inverse Document Frequencies. OANC was chosen because it contains approximately 15 million words (large corpora more accurately represent the "real world") and is freely available! The OANC corpus is hence chosen to represent how words are used in "real life".
-For each word in this corpus, we take the number of documents (files) within this corpus, divide the number of occurrences of this term and then take the base-10 logarithm. This gives higher values for words that occur less in this "world" and lower values for the words like ‘the’ that appear more. This process was completed with help from Python. An example of the result is below:
-Image for post
-IDFs calculated over OANC
-Note that ‘the’ has a low idf, implying that it will be of less importance, ‘theatre’ has a higher idf because it appears less in the "world", implying higher importance.
+
+Note that in this case, the document frequencies were inverted prior to use, becoming *inverse* document frequencies (*idf*). The *idf*s can then be multiplied by the term frequency to form the equivalent function:
+
+![An equivalent definition for TFIDF; TFIDF(tf, idf)](fleetwood-mac-tusk/tfidf_2.png "An equivalent definition for TFIDF; TFIDF(tf, idf)")
+
+The question now becomes how do we build this inverse document frequency *idf* measure. We know that it needs to accurately represent how each term is used in day-to-day life. The answer involves the use of an external corpus.
+
+# Building Custom IDFs
+
+The [Open American National Corpus](http://www.anc.org/data/oanc/) (OANC) was used to build these Inverse Document Frequencies. OANC was chosen because it contains approximately 15 million words (large corpora more accurately represent the "real world") and is freely available! The OANC corpus is hence chosen to represent how words are used in "real life".
+
+For each word in this corpus, we take the number of documents (files) within this corpus, divide the number of occurrences of this term and then take the base-10 logarithm. This gives higher values for words that occur less in this "world" and lower values for the words like 'the' that appear more. This process was completed with help from Python. An example of the result is below:
+
+![IDFs calculated over OANC](/fleetwood-mac-tusk/invfreq_1.png "IDFs calculated over OANC")
+
+Note that 'the' has a low *idf*, implying that it will be of less importance, ‘theatre’ has a higher idf because it appears less in the "world", implying higher importance.
 Computing the TFIDF of each word in the Tusk corpus
 We now use our idfs calculated from OANC to compute the TFIDF of each term in our Tusk corpus. We simply apply the TFIDF(tf, idf) function defined above to each word’s frequency. Julia is once again used for this task.
 The result is a new list of terms from the Tusk corpus, but this time, they are ordered by the TFIDF assigned to each word. Following is a sample of the top 20 words as rated by their TFIDF. Notice that the words with the highest frequencies are no longer necessarily at the top of the list. Also note that those pesky words from before such as ‘and’, ‘the’, and ‘that’ are no longer present at the top. We are left with words that could be seen as more meaningful to the album such as ‘you’, ‘me’, ‘i’, ‘love’, ‘’baby’, ‘over’, etcetera.
