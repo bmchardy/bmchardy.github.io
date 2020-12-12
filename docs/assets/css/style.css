@@ -4,6 +4,10 @@
 @import "{{ site.theme }}";
 @import "fonts";
 
-body {
- font-family: 'Merriweather', serif !important; 
+* {
+ font-family: 'CaptureSmallz' !important; 
+}
+
+h1 {
+ font-family: 'CaptureSmallz' !important;
 }
