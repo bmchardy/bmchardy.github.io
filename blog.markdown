@@ -6,3 +6,7 @@ layout: home
 title: Blog
 permalink: /blog/
 ---
+
+I enjoy writing about my thoughts, interests, and recent analyses in my free time.
+
+I used to mainly use Medium for blogging. Those old posts have been ported over.
