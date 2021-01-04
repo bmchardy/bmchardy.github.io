@@ -7,7 +7,7 @@ categories: statistics
 
 **Bobby McHardy, for the University of Waterloo's Psychology Society**
 
-*This tutorial is available on [YouTube](youtube.ca). All code and other resources are posted on [Github](https://github.com/bmchardy/PSYCH-292-Statistics-Tutorials).*
+*This tutorial is available on [YouTube](https://youtu.be/dC-_WO1DbGY). All code and other resources are posted on [Github](https://github.com/bmchardy/PSYCH-292-Statistics-Tutorials).*
 
 <hr>
 
