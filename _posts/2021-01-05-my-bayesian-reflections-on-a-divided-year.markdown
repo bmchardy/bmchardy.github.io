@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2020 — My Bayesian Reflections On A Divided Year"
-date:   2020-01-05 22:01:00 -0400
+date:   2021-01-05 00:00:00 -0400
 categories: statistics
 ---
 
