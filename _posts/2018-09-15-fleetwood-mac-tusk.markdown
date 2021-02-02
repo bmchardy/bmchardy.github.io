@@ -2,7 +2,7 @@
 layout: post
 title:  "An Analysis of Fleetwood Mac's Tusk"
 date:   2018-09-15 00:00:00 -0400
-categories: jekyll update
+categories: analysis
 ---
 
 <center><img src="https://raw.github.com/bmchardy/bmchardy.github.io/master/_posts/fleetwood-mac-tusk/wordart_2MB.png"></center>

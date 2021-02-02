@@ -2,7 +2,7 @@
 layout: post
 title:  "2020 — My Bayesian Reflections On A Divided Year"
 date:   2021-01-05 00:00:00 -0400
-categories: statistics
+categories: analysis
 ---
 
 This year has been many things — a year of much needed racial reckoning, a year of facing and trying to understand grief and loss at a personal and global scale, and a year of political division.
