@@ -5,8 +5,7 @@ date:   2020-03-27 00:00:00 -0400
 categories: analysis
 ---
 
-<center><img src="https://raw.github.com/bmchardy/bmchardy.github.io/master/_posts/fleetwood-mac-tusk/wordart_2MB.png"></center>
-<center>Tusk word cloud<br></center>
+<center><img src="https://github.com/bmchardy/bmchardy.github.io/blob/master/_posts/covid-19-analysis-humanity/vis-min.gif"></center>
 
 *Originally published on my Medium account [here](https://medium.com/@rjwmchardy/covid-19-analysis-humanity-during-pandemic-625ae0385ad3).*
 
