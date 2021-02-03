@@ -5,4 +5,4 @@ title: CV
 
 # Curriculum Vitae
 
-[WIP]
+[Work in progress...]
