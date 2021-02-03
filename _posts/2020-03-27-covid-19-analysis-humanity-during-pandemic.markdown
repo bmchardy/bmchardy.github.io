@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "COVID-19 Analysis Humanity during Pandemic"
+title:  "COVID-19 Analysis: Humanity during Pandemic"
 date:   2020-03-27 00:00:00 -0400
 categories: analysis
 ---
@@ -36,12 +36,12 @@ After downloading the [publicly-available COVID-19 dataset](https://www.tableau.
 I wanted to look at what people are doing to cope in this pandemic. Specifically, how are people acting prosocially? I wanted to look at kindness, helping, and positivity.
 
 # What Tools I Used
-*[COVID-19 Global Data](https://www.tableau.com/covid-19-coronavirus-data-resources)
-*Tableau
-*Excel
-*Python 2.7
-*[News API](https://newsapi.org/)
-*[Natural Language Toolkit (NLTK)](https://www.nltk.org/)
+* [COVID-19 Global Data](https://www.tableau.com/covid-19-coronavirus-data-resources)
+* Tableau
+* Excel
+* Python 2.7
+* [News API](https://newsapi.org/)
+* [Natural Language Toolkit (NLTK)](https://www.nltk.org/)
 
 # My Method
 Below, I’ll lay out the process I followed to create this graphic.
@@ -143,14 +143,14 @@ How do we stay appropriately informed on the situation while minimizing our day-
 
 **Change the thought!**
 
-*Be mindful of the news without ruminating over it. It’ll take practice, but you can try practicing [Radical Acceptance](https://www.psychologytoday.com/ca/blog/pieces-mind/201207/radical-acceptance) from Dialectical Behaviour Therapy by accepting this moment. “It is what it is” and “this moment is the result of many past events”.
+* Be mindful of the news without ruminating over it. It’ll take practice, but you can try practicing [Radical Acceptance](https://www.psychologytoday.com/ca/blog/pieces-mind/201207/radical-acceptance) from Dialectical Behaviour Therapy by accepting this moment. “It is what it is” and “this moment is the result of many past events”.
 
 **Make some simple behavioural changes!**
 
-*Don’t start off the day by checking the news in a frenzy; schedule a 20 minute slot of time around lunch or in the evening to get your updates. These days, this is so much easier said than done as the news is everywhere…
-*Introduce some simple guided relaxation meditation YouTube videos into your daily routine. They can be fun and rewarding. Or Yoga!
-*Practice standard self-care every day.
-*Help yourself and your loved ones at the same time by checking in and sending positive energy versus anxiety.
+* Don’t start off the day by checking the news in a frenzy; schedule a 20 minute slot of time around lunch or in the evening to get your updates. These days, this is so much easier said than done as the news is everywhere…
+* Introduce some simple guided relaxation meditation YouTube videos into your daily routine. They can be fun and rewarding. Or Yoga!
+* Practice standard self-care every day.
+* Help yourself and your loved ones at the same time by checking in and sending positive energy versus anxiety.
 
 Stay safe, calm, and optimistic my friends!
 
