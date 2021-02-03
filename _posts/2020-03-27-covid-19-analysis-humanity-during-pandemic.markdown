@@ -6,7 +6,7 @@ categories: analysis
 ---
 
 <center><img src="https://raw.github.com/bmchardy/bmchardy.github.io/master/_posts/fleetwood-mac-tusk/wordart_2MB.png"></center>
-<center>Tusk word cloud</center>
+<center>Tusk word cloud<br></center>
 
 *Originally published on my Medium account [here](https://medium.com/@rjwmchardy/covid-19-analysis-humanity-during-pandemic-625ae0385ad3).*
 
@@ -123,7 +123,7 @@ I understand that reporting % cases recovered logarithmically can be misleading 
 The reason I reported % cases recovered logarithmically is because % recovery varies greatly as a function of country and all countries are at different stages of this epidemic right now; one is 80%+ recovered (China), while most are sub 20%.
 
 <center><img src="https://raw.githubusercontent.com/bmchardy/bmchardy.github.io/master/_posts/covid-19-analysis-humanity/pctRecoveriesLogIllustration.png"></center>
-<center><b>At top:</b> % Recover (Recoveries / Confirmed Cases). Notice the skew. <b>Below:</b> Log % Recoveries.</center>
+<center><b>At top:</b> % Recover (Recoveries / Confirmed Cases). Notice the skew. <b>Below:</b> Log % Recoveries.<br></center>
 
 When I first tried reporting the recoveries result linearly, I found China to be a *big* outlier (signalling strong progress), while most other countries were still in their early stages. This big discrepancy made China look like the only one to make progress and this is not what I was aiming for; other countries are all working hard. I therefore opted for a logarithmic colour function which shows the big strides toward recovery other countries are taking in better detail.
 
