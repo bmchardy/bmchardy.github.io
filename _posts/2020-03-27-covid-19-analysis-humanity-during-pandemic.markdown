@@ -23,12 +23,12 @@ Country size represents number of active cases in the country. Country colour re
 **Also Read:** The New York Times has [a new article out today](https://nyti.ms/2UlDPHS) (March 27th). The article is in the spirit of my write-up and it’s worth a read :)
 
 # Sections
-*Description (above)
-*Purpose
-*Tools
-*Method
-*Take Care ❤
-*Other Thoughts
+* Description (above)
+* Purpose
+* Tools
+* Method
+* Take Care ❤
+* Other Thoughts
 
 # Purpose
 After downloading the [publicly-available COVID-19 dataset](https://www.tableau.com/covid-19-coronavirus-data-resources) maintained by [Johns Hopkins University](https://www.jhu.edu/) and made available by Tableau in .hyper, .csv, and Google Sheet formats, updated daily, I had a look at the data and wanted to present it in a way that highlights the good side of humanity (I hope this is something accomplished with the above graphic.) The one positive dimension in the data was the recovery count.
