@@ -23,12 +23,12 @@ Country size represents number of active cases in the country. Country colour re
 **Also Read:** The New York Times has [a new article out today](https://nyti.ms/2UlDPHS) (March 27th). The article is in the spirit of my write-up and it’s worth a read :)
 
 # Sections
--Description (above)
--Purpose
--Tools
--Method
--Take Care ❤
--Other Thoughts
+*Description (above)
+*Purpose
+*Tools
+*Method
+*Take Care ❤
+*Other Thoughts
 
 # Purpose
 After downloading the [publicly-available COVID-19 dataset](https://www.tableau.com/covid-19-coronavirus-data-resources) maintained by [Johns Hopkins University](https://www.jhu.edu/) and made available by Tableau in .hyper, .csv, and Google Sheet formats, updated daily, I had a look at the data and wanted to present it in a way that highlights the good side of humanity (I hope this is something accomplished with the above graphic.) The one positive dimension in the data was the recovery count.
@@ -36,12 +36,12 @@ After downloading the [publicly-available COVID-19 dataset](https://www.tableau.
 I wanted to look at what people are doing to cope in this pandemic. Specifically, how are people acting prosocially? I wanted to look at kindness, helping, and positivity.
 
 # What Tools I Used
--[COVID-19 Global Data](https://www.tableau.com/covid-19-coronavirus-data-resources)
--Tableau
--Excel
--Python 2.7
--[News API](https://newsapi.org/)
--[Natural Language Toolkit (NLTK)](https://www.nltk.org/)
+*[COVID-19 Global Data](https://www.tableau.com/covid-19-coronavirus-data-resources)
+*Tableau
+*Excel
+*Python 2.7
+*[News API](https://newsapi.org/)
+*[Natural Language Toolkit (NLTK)](https://www.nltk.org/)
 
 # My Method
 Below, I’ll lay out the process I followed to create this graphic.
@@ -122,8 +122,8 @@ I understand that reporting % cases recovered logarithmically can be misleading 
 
 The reason I reported % cases recovered logarithmically is because % recovery varies greatly as a function of country and all countries are at different stages of this epidemic right now; one is 80%+ recovered (China), while most are sub 20%.
 
-
-[log img here]
+<center><img src="https://raw.githubusercontent.com/bmchardy/bmchardy.github.io/master/_posts/covid-19-analysis-humanity/pctRecoveriesLogIllustration.png"></center>
+<center><b>At top:</b> % Recover (Recoveries / Confirmed Cases). Notice the skew. <b>Below:</b> Log % Recoveries.</center>
 
 When I first tried reporting the recoveries result linearly, I found China to be a *big* outlier (signalling strong progress), while most other countries were still in their early stages. This big discrepancy made China look like the only one to make progress and this is not what I was aiming for; other countries are all working hard. I therefore opted for a logarithmic colour function which shows the big strides toward recovery other countries are taking in better detail.
 
@@ -143,14 +143,14 @@ How do we stay appropriately informed on the situation while minimizing our day-
 
 **Change the thought!**
 
--Be mindful of the news without ruminating over it. It’ll take practice, but you can try practicing [Radical Acceptance](https://www.psychologytoday.com/ca/blog/pieces-mind/201207/radical-acceptance) from Dialectical Behaviour Therapy by accepting this moment. “It is what it is” and “this moment is the result of many past events”.
+*Be mindful of the news without ruminating over it. It’ll take practice, but you can try practicing [Radical Acceptance](https://www.psychologytoday.com/ca/blog/pieces-mind/201207/radical-acceptance) from Dialectical Behaviour Therapy by accepting this moment. “It is what it is” and “this moment is the result of many past events”.
 
 **Make some simple behavioural changes!**
 
--Don’t start off the day by checking the news in a frenzy; schedule a 20 minute slot of time around lunch or in the evening to get your updates. These days, this is so much easier said than done as the news is everywhere…
--Introduce some simple guided relaxation meditation YouTube videos into your daily routine. They can be fun and rewarding. Or Yoga!
--Practice standard self-care every day.
--Help yourself and your loved ones at the same time by checking in and sending positive energy versus anxiety.
+*Don’t start off the day by checking the news in a frenzy; schedule a 20 minute slot of time around lunch or in the evening to get your updates. These days, this is so much easier said than done as the news is everywhere…
+*Introduce some simple guided relaxation meditation YouTube videos into your daily routine. They can be fun and rewarding. Or Yoga!
+*Practice standard self-care every day.
+*Help yourself and your loved ones at the same time by checking in and sending positive energy versus anxiety.
 
 Stay safe, calm, and optimistic my friends!
 
