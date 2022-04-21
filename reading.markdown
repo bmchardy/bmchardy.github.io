@@ -13,7 +13,7 @@ Here's a look at some of the books I've been reading recently. These are the one
 		<th>Psychology</th>
 		<th>LGBTQ+</th>
 		<th>Family Systems</th>
-		<th>Current Issues</th>
+		<th>Social Issues</th>
 		<th>Politics</th>
 		<th>Classics</th>
 	</tr>
@@ -52,8 +52,9 @@ Here's a look at some of the books I've been reading recently. These are the one
 		<td>
 			<ul>
 				<li>The Sentence (Erdrich, 2021)</li>
-				<li>The Premonition: A Pandemic Story (Lewis, 2021)</li>
+				<li>Where the Crawdads Sing (Owens, 2018)</li>
 				<li>Beautiful World, Where Are You (Rooney, 2021)</li>
+				<li>The Premonition: A Pandemic Story (Lewis, 2021)</li>
 			</ul>
 		</td>
 		<td>
