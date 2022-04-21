@@ -52,7 +52,7 @@ Here's a look at some of the books I've been reading recently. These are the one
 		<td>
 			<ul>
 				<li>The Sentence (Erdrich, 2021)</li>
-				<li>The Premonition: A Pandemic Story (Lewis, 2022)</li>
+				<li>The Premonition: A Pandemic Story (Lewis, 2021)</li>
 				<li>Beautiful World, Where Are You (Rooney, 2021)</li>
 			</ul>
 		</td>
@@ -66,7 +66,7 @@ Here's a look at some of the books I've been reading recently. These are the one
 				<li>1984 (Orwell, 1949)</li>
 				<li>Animal Farm (Orwell, 1945)</li>
 				<li>To Kill a Mockingbird (Lee, 1960)</li>
-				<li>The Great Gatspy (Lee, 1960)</li>
+				<li>The Great Gatspy (Fitzgerald, 1925)</li>
 				<li>Strange Case of Dr. Jekyll and Mr. Hyde (Stevenson, 1886)</li>
 				<li>Frankenstein; or, The Modern Prometheus (Shelley, 1818)</li>
 				<li>Alice's Adventures in Wonderland (Carroll, 1865)</li>
