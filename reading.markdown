@@ -51,9 +51,9 @@ Here's a look at some of the books I've been reading recently. These are the one
 		</td>
 		<td>
 			<ul>
-				<li>The Sentence (Erdrich, 2021)</li>
 				<li>Where the Crawdads Sing (Owens, 2018)</li>
 				<li>Beautiful World, Where Are You (Rooney, 2021)</li>
+				<li>The Sentence (Erdrich, 2021)</li>
 				<li>The Premonition: A Pandemic Story (Lewis, 2021)</li>
 			</ul>
 		</td>
