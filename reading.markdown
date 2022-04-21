@@ -17,7 +17,7 @@ Here's a look at some of the books I've been reading recently. These are the one
 		<th>Politics</th>
 		<th>Classics</th>
 	</tr>
-	<tr>
+	<tr style="vertical-align:top">
 		<td style="vertical-align:top">
 			<ul style="vertical-align:top">
 				<li>The Body Keeps The Score (van der Kolk, 2014)</li>
