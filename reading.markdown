@@ -18,7 +18,7 @@ Here's a look at some of the books I've been reading recently. These are the one
 		<th>Classics</th>
 	</tr>
 	<tr>
-		<td>
+		<td style="vertical-align:top">
 			<ul>
 				<li>The Body Keeps The Score (van der Kolk, 2014)</li>
 				<li>Man's Search for Meaning (Frankl, 1946)</li>
@@ -30,7 +30,7 @@ Here's a look at some of the books I've been reading recently. These are the one
 				<li>The Road to Character (Brooks, 2015)</li>
 			</ul>
 		</td>
-		<td>
+		<td style="vertical-align:top">
 			<ul>
 				<li>Real Life (Taylor, 2020)</li>
 				<li>Filthy Animals (Taylor, 2021)</li>
@@ -44,24 +44,24 @@ Here's a look at some of the books I've been reading recently. These are the one
 				<li>We Have Always Been Here (Habib, 2019)</li>
 			</ul>
 		</td>
-		<td>
+		<td style="vertical-align:top">
 			<ul>
 				<li>Little Fires Everywhere (Ng, 2017)</li>
 			</ul>
 		</td>
-		<td>
+		<td style="vertical-align:top">
 			<ul>
 				<li>The Sentence (Erdrich, 2021)</li>
 				<li>The Premonition: A Pandemic Story (Lewis, 2022)</li>
 				<li>Beautiful World, Where Are You (Rooney, 2021)</li>
 			</ul>
 		</td>
-		<td>
+		<td style="vertical-align:top">
 			<ul>
 				<li>A Promised Land (Obama, 2020)</li>
 			</ul>
 		</td>
-		<td>
+		<td style="vertical-align:top">
 			<ul>
 				<li>1984 (Orwell, 1949)</li>
 				<li>Animal Farm (Orwell, 1945)</li>
