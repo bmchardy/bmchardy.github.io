@@ -19,7 +19,7 @@ Here's a look at some of the books I've been reading recently. These are the one
 	</tr>
 	<tr style="vertical-align:top">
 		<td style="vertical-align:top">
-			<ul style="vertical-align:top">
+			<ul style="vertical-align:top; display:inline-table;">
 				<li>The Body Keeps The Score (van der Kolk, 2014)</li>
 				<li>Man's Search for Meaning (Frankl, 1946)</li>
 				<li>Strengthening Family Resilience (Walsh, 2016)</li>
@@ -31,7 +31,7 @@ Here's a look at some of the books I've been reading recently. These are the one
 			</ul>
 		</td>
 		<td style="vertical-align:top">
-			<ul style="vertical-align:top">
+			<ul style="vertical-align:top; display:inline-table;">
 				<li>Real Life (Taylor, 2020)</li>
 				<li>Filthy Animals (Taylor, 2021)</li>
 				<li>A Boy's Own Story (White, 1982)</li>
@@ -45,24 +45,24 @@ Here's a look at some of the books I've been reading recently. These are the one
 			</ul>
 		</td>
 		<td style="vertical-align:top">
-			<ul style="vertical-align:top">
+			<ul style="vertical-align:top; display:inline-table;">
 				<li>Little Fires Everywhere (Ng, 2017)</li>
 			</ul>
 		</td>
 		<td style="vertical-align:top">
-			<ul style="vertical-align:top">
+			<ul style="vertical-align:top; display:inline-table;">
 				<li>The Sentence (Erdrich, 2021)</li>
 				<li>The Premonition: A Pandemic Story (Lewis, 2022)</li>
 				<li>Beautiful World, Where Are You (Rooney, 2021)</li>
 			</ul>
 		</td>
 		<td style="vertical-align:top">
-			<ul style="vertical-align:top">
+			<ul style="vertical-align:top; display:inline-table;">
 				<li>A Promised Land (Obama, 2020)</li>
 			</ul>
 		</td>
 		<td style="vertical-align:top">
-			<ul style="vertical-align:top">
+			<ul style="vertical-align:top; display:inline-table;">
 				<li>1984 (Orwell, 1949)</li>
 				<li>Animal Farm (Orwell, 1945)</li>
 				<li>To Kill a Mockingbird (Lee, 1960)</li>
