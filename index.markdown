@@ -15,3 +15,5 @@ With professional experience in addictions, counselling, information technology,
 An avid volunteer, I have served as Vice President of both the Psychology Society and the Mathematics Society at my school and am a Peer Mentor for students with low-level mental health and wellness concerns.
 
 I always have some sort of side project!
+
+Feel free to check out my <a href="https://docs.google.com/document/d/1Ofsd3_aYn_Xy8jzHg8x3HQ4BHIscKPP1/edit?usp=sharing&ouid=117803962430868863280&rtpof=true&sd=true">CV</a>.
