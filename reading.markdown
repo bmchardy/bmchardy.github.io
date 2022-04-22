@@ -78,3 +78,5 @@ Here's a look at some of the books I've been reading recently. These are the one
 		</td>
 	</tr>
 </table>
+
+<em>First Iteration. Updated April 21, 2022.</em>
