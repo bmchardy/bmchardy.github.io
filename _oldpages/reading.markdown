@@ -46,7 +46,6 @@ Here's a look at some of the books I've been reading recently. These are the one
 		</td>
 		<td>
 			<ul>
-				<li>Shuggie Bain (Stuart, 2020)</li>
 				<li>Little Fires Everywhere (Ng, 2017)</li>
 			</ul>
 		</td>
@@ -61,7 +60,6 @@ Here's a look at some of the books I've been reading recently. These are the one
 		<td>
 			<ul>
 				<li>A Promised Land (Obama, 2020)</li>
-				<li>21 Lessons for the 21st Century (Harari, 2018)</li>
 			</ul>
 		</td>
 		<td>
@@ -69,7 +67,6 @@ Here's a look at some of the books I've been reading recently. These are the one
 				<li>1984 (Orwell, 1949)</li>
 				<li>Animal Farm (Orwell, 1945)</li>
 				<li>To Kill a Mockingbird (Lee, 1960)</li>
-				<li>The Catcher in the Rye (Salinger, 1951)</li>
 				<li>The Great Gatspy (Fitzgerald, 1925)</li>
 				<li>Strange Case of Dr. Jekyll and Mr. Hyde (Stevenson, 1886)</li>
 				<li>Frankenstein; or, The Modern Prometheus (Shelley, 1818)</li>
@@ -82,4 +79,4 @@ Here's a look at some of the books I've been reading recently. These are the one
 	</tr>
 </table>
 
-<em>Second Iteration. Updated May 9, 2022.</em>
+<em>First Iteration. Updated April 21, 2022.</em>
