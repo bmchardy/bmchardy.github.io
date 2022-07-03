@@ -47,6 +47,7 @@ Here's a look at some of the books I've been reading recently. These are the one
 		<td>
 			<ul>
 				<li>Shuggie Bain (Stuart, 2020)</li>
+				<li>Hillbilly Elegy: A Memoir of a Family and Culture in Crisis (Vance, 2016)</li>
 				<li>Little Fires Everywhere (Ng, 2017)</li>
 			</ul>
 		</td>
@@ -66,15 +67,17 @@ Here's a look at some of the books I've been reading recently. These are the one
 		</td>
 		<td>
 			<ul>
+				<li>Brave New World (Huxley, 1932)</li>
 				<li>1984 (Orwell, 1949)</li>
 				<li>Animal Farm (Orwell, 1945)</li>
+				<li>The Great Gatspy (Fitzgerald, 1925)</li>
 				<li>To Kill a Mockingbird (Lee, 1960)</li>
 				<li>The Catcher in the Rye (Salinger, 1951)</li>
-				<li>The Great Gatspy (Fitzgerald, 1925)</li>
 				<li>Strange Case of Dr. Jekyll and Mr. Hyde (Stevenson, 1886)</li>
 				<li>Frankenstein; or, The Modern Prometheus (Shelley, 1818)</li>
 				<li>Alice's Adventures in Wonderland (Carroll, 1865)</li>
 				<li>The Time Machine (Wells, 1895)</li>
+				<li>Walden (Thoreau, 1854)</li>
 				<li>Mrs. Dalloway (Woolf, 1925)</li>
 				<li>Pride and Prejudice (Austen, 1813)</li>
 			</ul>
@@ -82,4 +85,4 @@ Here's a look at some of the books I've been reading recently. These are the one
 	</tr>
 </table>
 
-<em>Second Iteration. Updated May 9, 2022.</em>
+<em>Third Iteration. Updated July 3, 2022.</em>
