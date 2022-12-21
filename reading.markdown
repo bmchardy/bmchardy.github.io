@@ -41,12 +41,14 @@ Here's a look at some of the books I've been reading recently. These are the one
 				<li>Call Me By Your Name (Aciman, 2007)</li>
 				<li>Brokeback Mountain (Proulx, 1997)</li>
 				<li>Swimming in the Dark (Jedrowski, 2020)</li>
+				<li>Lot: Stories (Washington, 2019)</li>
 				<li>We Have Always Been Here (Habib, 2019)</li>
 			</ul>
 		</td>
 		<td>
 			<ul>
 				<li>Shuggie Bain (Stuart, 2020)</li>
+				<li>Normal People (Rooney, 2018)</li>
 				<li>Hillbilly Elegy: A Memoir of a Family and Culture in Crisis (Vance, 2016)</li>
 				<li>Little Fires Everywhere (Ng, 2017)</li>
 			</ul>
@@ -77,6 +79,7 @@ Here's a look at some of the books I've been reading recently. These are the one
 				<li>Frankenstein; or, The Modern Prometheus (Shelley, 1818)</li>
 				<li>Alice's Adventures in Wonderland (Carroll, 1865)</li>
 				<li>The Time Machine (Wells, 1895)</li>
+				<li>Travels with Charley: In Search of America (Steinbeck, 1962)</li>
 				<li>Walden (Thoreau, 1854)</li>
 				<li>Mrs. Dalloway (Woolf, 1925)</li>
 				<li>Pride and Prejudice (Austen, 1813)</li>
@@ -85,4 +88,4 @@ Here's a look at some of the books I've been reading recently. These are the one
 	</tr>
 </table>
 
-<em>Third Iteration. Updated July 3, 2022.</em>
+<em>Fourth Iteration. Updated December 20, 2022.</em>
