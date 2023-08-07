@@ -23,8 +23,6 @@ Here's a look at some of the books I've been reading recently. These are the one
 				<li>The Body Keeps The Score (van der Kolk, 2014)</li>
 				<li>Man's Search for Meaning (Frankl, 1946)</li>
 				<li>Strengthening Family Resilience (Walsh, 2016)</li>
-				<li>12 Rules for Life: An Antidote to Chaos (Peterson, 2018)</li>
-				<li>Beyond Order: 12 More Rules for Life (Peterson, 2021)</li>
 				<li>Attached (Levine & Heller, 2010)</li>
 				<li>Talking to Strangers (Gladwell, 2019)</li>
 				<li>The Road to Character (Brooks, 2015)</li>
@@ -88,4 +86,4 @@ Here's a look at some of the books I've been reading recently. These are the one
 	</tr>
 </table>
 
-<em>Fourth Iteration. Updated December 20, 2022.</em>
+<em>Fourth Iteration. Updated August 6, 2023.</em>
